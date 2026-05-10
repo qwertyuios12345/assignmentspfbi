@@ -1,0 +1,34 @@
+Here's a classification of each trade based on its 30-day and 90-day excess returns, followed by an explanation and limitations:
+
+**Classification of Trades:**
+
+| Name            | Ticker | Transaction | traded_date | excess_return_30d | Classification_30d      | excess_return_90d | Classification_90d      |
+| :-------------- | :----- | :---------- | :---------- | :---------------- | :---------------------- | :---------------- | :---------------------- |
+| Daniel Goldman  | OPEN   | Purchase    | 2023-04-10  | 24.31%            | moderate outperformance | 135.55%           | strong outperformance   |
+| Pete Sessions   | NVDA   | Purchase    | 2023-12-06  | 4.65%             | weak/no outperformance  | 77.28%            | strong outperformance   |
+| Daniel Goldman  | NVDA   | Purchase    | 2023-03-01  | 18.38%            | moderate outperformance | 70.28%            | strong outperformance   |
+| Josh Gottheimer | ARQT   | Sale        | 2023-09-15  | 43.14%            | moderate outperformance | 68.75%            | strong outperformance   |
+| Josh Gottheimer | NVDA   | Purchase    | 2023-02-27  | 13.68%            | moderate outperformance | 65.07%            | strong outperformance   |
+| Jonathan Jackson| NVDA   | Purchase    | 2023-04-14  | 8.24%             | weak/no outperformance  | 62.82%            | strong outperformance   |
+| Josh Gottheimer | META   | Purchase    | 2023-01-31  | 19.49%            | moderate outperformance | 61.00%            | strong outperformance   |
+| Morgan Mcgarvey | NVDA   | Purchase    | 2023-03-07  | 13.12%            | moderate outperformance | 60.99%            | strong outperformance   |
+| Josh Gottheimer | NVDA   | Purchase    | 2023-03-06  | 13.09%            | moderate outperformance | 60.74%            | strong outperformance   |
+| Josh Gottheimer | ADYEY  | Purchase    | 2023-10-16  | 40.57%            | moderate outperformance | 59.00%            | strong outperformance   |
+
+---
+
+**Consistency of Strongest Trades Across Windows:**
+
+All ten trades demonstrate "strong outperformance" in the 90-day window. However, their 30-day performance shows varied results:
+*   Eight out of ten trades were classified as "moderate outperformance" at the 30-day mark.
+*   Two trades (Pete Sessions - NVDA and Jonathan Jackson - NVDA) were classified as "weak/no outperformance" at 30 days.
+
+This indicates that while these trades ultimately achieved significant "strong outperformance" over the 90-day period, they were **not consistently strong** (i.e., "strong outperformance") within the initial 30 days. The substantial outperformance mainly materialized or accelerated over the longer 90-day horizon.
+
+---
+
+**Limitations of This Analysis:**
+
+1.  **Limited Sample Size and Scope:** The analysis is based on a very small dataset of only ten trades, all of which coincidentally show positive excess returns over both periods. This makes it difficult to draw generalizable conclusions about overall trading strategies or performance, as it lacks diverse outcomes (e.g., underperformance, different asset classes, or a wider range of traders).
+2.  **Lack of Context for Excess Return Calculation:** The provided "excess return" figures are taken at face value without details on their calculation methodology. This includes what specific S&P 500 index was used, whether dividends were reinvested, how transaction costs were handled, or the exact entry/exit prices relative to the traded date. Without this context, the precision and comparability of the returns are limited.
+3.  **No Consideration of Risk or Portfolio Strategy:** The analysis evaluates individual trades in isolation, disregarding crucial factors such as the risk associated with each investment (e.g., volatility of the underlying stock), the size of the position relative to the trader's total portfolio, or the broader investment goals and diversification strategies of the individuals involved. A high return on a small, speculative position might be interpreted differently than a moderate return on a significant, strategic holding.
